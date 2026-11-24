@@ -1,0 +1,1 @@
+var e=e=>({...e,left:e.right,right:e.left,rtlAxis:e.width}),t=(e,t)=>({...e,left:t-e.right,right:t-e.left}),n=(e,n)=>({...e,intervals:e.intervals.map(e=>t(e,n)).reverse()});function r(e,t){return e.x=t-e.x-e.width,e.labelDirection=`rtl`,e}var i=(e,t)=>t&&e===`left`?`right`:t&&e===`right`?`left`:e;export{i as a,n as i,t as n,e as r,r as t};
